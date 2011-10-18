@@ -1,0 +1,12 @@
+{
+    "name":     "objectfs-packages",
+    "version":  "0.1.0",
+    "main":     false,
+    "maintainers:   [
+        { "name": "Emilis Dambauskas", "email": "emilis.d@gmail.com", "web": "http://emilis.github.com/" }],
+    "description":  "ObjectFS package catalog.",
+    "repositories": [{
+            "type":"git",
+            "url":"lunar-orbiter:git/objectfs-packages"
+        }]
+}
