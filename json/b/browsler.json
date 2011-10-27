@@ -1,0 +1,14 @@
+{
+    "name":         "browsler",
+    "description":  "Browsler - a server-side browser",
+    "version":      "0.1.0",
+    "main":         "index.js",
+    "directories": {
+        "lib":  "lib" },
+    "repositories": [{
+            "type":"git",
+            "url":"lunar-orbiter:git/browsler"
+        }],
+    "maintainers":   [
+        { "name": "Emilis Dambauskas", "email": "emilis.d@gmail.com", "web": "http://emilis.github.com/" }],
+}
