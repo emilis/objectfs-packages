@@ -18,7 +18,7 @@ For full documentation see: <http://wiki.commonjs.org/wiki/Packages/1.1>
 ### Properties required by ofs-pkg:
 
 - url of a publicly readable git repository,
-- ObjectFS uri mappings for modules (if your package provides storage drivers).
+- ObjectFS uri mappings for modules (if your package provides storage wrappers).
 
 Example from [objectfs-core.json](https://github.com/emilis/objectfs-packages/blob/master/json/o/objectfs-core.json):
 
@@ -29,8 +29,8 @@ Example from [objectfs-core.json](https://github.com/emilis/objectfs-packages/bl
     { "type":"git", "url":"git://github.com/emilis/objectfs-core.git" }],
   ...
   "objectfs-uris": [
-    { "scheme":"csv", "module":"objectfs-core/drivers/csv" },
-    { "path": "*.csv", "module":"objectfs-core/drivers/csv" }],
+    { "scheme":"csv", "module":"objectfs-core/wrappers/csv" },
+    { "path": "*.csv", "module":"objectfs-core/wrappers/csv" }],
   ...
 }
 ```
