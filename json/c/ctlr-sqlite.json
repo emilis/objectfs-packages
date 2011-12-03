@@ -1,0 +1,17 @@
+{
+    "name": "ctlr-sqlite",
+    "description": "Sqlite bindings for RingoJS.",
+    "keywords": ["sqlite", "adodb"],
+    "version": "1.0",
+    "main": "index.js",
+    "directories": {
+        "jars": "jars" },
+    "repositories": [{
+        "type":"git",
+        "url":"git://github.com/emilis/ctlr-sqlite.git"
+        }],
+    "maintainers":   [
+        { "name": "Emilis Dambauskas", "email": "emilis.d@gmail.com", "web": "http://emilis.github.com/" }],
+    "licenses": [
+        { "type": "GPLv3", "url": "http://www.gnu.org/licenses/gpl.txt" }]
+}
