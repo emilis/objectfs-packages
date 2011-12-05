@@ -1,6 +1,7 @@
 {
     "name":         "objectfs-packages",
     "description":  "ObjectFS package catalog.",
+    "homepage":     "https://github.com/emilis/objectfs-packages",
     "version":      "0.1.0",
     "main":         false,
     "repositories": [{
